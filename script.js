@@ -79,3 +79,17 @@
 // alert(`Привет ${name}!`);
 
 
+
+// const user = {
+//     name: String (`Игорь`),
+//     age: Number (`40`),
+//     isAdmin: Boolean (`хз что писать`),
+// };
+
+// user[`city of residence`] = true;
+
+// user.age = "20";
+
+// delete user[`city of residence`];
+
+// user.info = (prompt("Какую информацию хотите узнать о пользователе ?"))
