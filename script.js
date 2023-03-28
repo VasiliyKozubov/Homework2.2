@@ -8,13 +8,13 @@
 
 
 
-// const createIphone = (2007);
+// const createIphone = 2007;
 
 // alert (createIphone);
 
 
 
-// const name = (`Брендан Айком`);
+// const name = `Брендан Айком`;
 
 // alert (name);
 
@@ -40,11 +40,11 @@
 
 
 
-// let a = 9;
+// let c = 9;
 
-// let b = 2;
+// let d = 2;
 
-// let result = `${a % b}`;
+// let result = `${c % d}`;
 
 // alert(result);
 
@@ -68,28 +68,30 @@
 
 
 
-// let age = Number (prompt(`Сколько вам лет?`));
+// let ages = Number (prompt(`Сколько вам лет?`));
 
-// alert(age);
+// alert(ages);
 
 
 
-// let name = prompt(`Ваше имя`);
+// let names = prompt(`Ваше имя`);
 
-// alert(`Привет ${name}!`);
+// alert(`Привет ${names}!`);
 
 
 
 // const user = {
-//     name: String (`Игорь`),
-//     age: Number (`40`),
-//     isAdmin: Boolean (`хз что писать`),
+//     name: `Игорь`,
+//     age: 40,
+//     isAdmin: false,
 // };
 
-// user[`city of residence`] = true;
+// user[`city of residence`] = "Рубцовск";
 
-// user.age = "20";
+// user.age = 20;
 
 // delete user[`city of residence`];
 
-// user.info = (prompt("Какую информацию хотите узнать о пользователе ?"))
+// let info = (prompt("Какую информацию хотите узнать о пользователе ?"));
+
+// alert(user[info]);
